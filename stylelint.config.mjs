@@ -3,6 +3,7 @@ export default {
     extends: ["stylelint-config-standard-scss"],
     "rules": {
         "indentation": [4],
-        "selector-class-pattern": null
+        "selector-class-pattern": null,
+        "keyframes-name-pattern":false
     }
 };

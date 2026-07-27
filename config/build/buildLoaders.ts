@@ -10,14 +10,17 @@ export function buildLoaders({isDev}: BuildOption): webpack.RuleSetRule[] {
         use: ['@svgr/webpack'],
     }
 
-
-    const babelLoaders =  {
-        test: /\.(js|jsx|ts|tsx)$/,
+    const babelLoaders = {
+        test: /\.(js|jsx)$/,
         exclude: /node_modules/,
         use: {
             loader: "babel-loader",
             options: {
-                presets: ['@babel/preset-env']
+                presets: [
+                    "@babel/preset-env",
+                    "@babel/preset-react",
+                    "@babel/preset-typescript"
+                ]
             }
         }
     }

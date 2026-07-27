@@ -1,7 +1,9 @@
 {
-  "Someshi": "какаято хуня",
   "Translate": "Язык",
   "HomePage": "Главная",
-  "AboutPage": "О нас"
-    
+  "AboutPage": "О нас",
+  "Toggle": "переключение",
+  "Page not found": "Страница не найдена",
+  "error": "Что-то пошло не так",
+  "reload": "перезагрузить"
 }

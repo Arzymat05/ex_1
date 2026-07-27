@@ -1,7 +1,9 @@
 {
-  "Someshi": "Someshi",
   "Translate": "Translate",
   "HomePage": "Home",
-  "AboutPage": "About us"
-
+  "AboutPage": "About us",
+  "Toggle": "Toggle",
+  "Page not found": "Page not found",
+  "error": "Something went wrong.",
+  "reload": "reload"
 }

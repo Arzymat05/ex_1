@@ -1,10 +1,11 @@
 import React, {Suspense} from 'react';
 import {Route, Routes} from "react-router-dom";
 import {routeConfig} from "shared/config/routeConfig/routeConfig";
+import {PageLoaders} from "widgets/PageLoader";
 
 const AppRoute = () => {
     return (
-        <Suspense fallback={"Loading..."}>
+        <Suspense fallback={<PageLoaders/>}>
             <Routes>
                 {Object.values(routeConfig).map(({path, element}) => (
 
