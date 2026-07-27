@@ -1,0 +1,26 @@
+.sideBar{
+  background-color: var(--inverted-bg-color);
+  height: calc(100vh - var(--navbar-height));
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: var(--sidebar-width);
+  transition: width 0.1s;
+}
+
+.collabsed{
+ width: var(--sidebar-width-collapsed);
+}
+
+.switchers{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.btn{
+  width: 50px;
+}
